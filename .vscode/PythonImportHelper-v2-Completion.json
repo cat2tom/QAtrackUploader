@@ -1,0 +1,276 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "read_mri_daily_qa_file",
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "isExtraImport": true,
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "read_mri_monthly_qa_files",
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "isExtraImport": true,
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "upload_unittest_results_to_QAtrack",
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "isExtraImport": true,
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "upload_unittest_results_to_QAtrack",
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "isExtraImport": true,
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "upload_unittest_results_to_QAtrack",
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "isExtraImport": true,
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "configparser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "configparser",
+        "description": "configparser",
+        "detail": "configparser",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "read_qa_results",
+        "importPath": "mri_qa_file",
+        "description": "mri_qa_file",
+        "isExtraImport": true,
+        "detail": "mri_qa_file",
+        "documentation": {}
+    },
+    {
+        "label": "read_qa_results",
+        "importPath": "mri_qa_file",
+        "description": "mri_qa_file",
+        "isExtraImport": true,
+        "detail": "mri_qa_file",
+        "documentation": {}
+    },
+    {
+        "label": "read_qa_results",
+        "importPath": "mri_qa_file",
+        "description": "mri_qa_file",
+        "isExtraImport": true,
+        "detail": "mri_qa_file",
+        "documentation": {}
+    },
+    {
+        "label": "read_qatrack_configfile",
+        "importPath": "qatrack_configfile",
+        "description": "qatrack_configfile",
+        "isExtraImport": true,
+        "detail": "qatrack_configfile",
+        "documentation": {}
+    },
+    {
+        "label": "read_root_configfile",
+        "importPath": "qatrack_configfile",
+        "description": "qatrack_configfile",
+        "isExtraImport": true,
+        "detail": "qatrack_configfile",
+        "documentation": {}
+    },
+    {
+        "label": "read_qatrack_configfile",
+        "importPath": "qatrack_configfile",
+        "description": "qatrack_configfile",
+        "isExtraImport": true,
+        "detail": "qatrack_configfile",
+        "documentation": {}
+    },
+    {
+        "label": "read_root_configfile",
+        "importPath": "qatrack_configfile",
+        "description": "qatrack_configfile",
+        "isExtraImport": true,
+        "detail": "qatrack_configfile",
+        "documentation": {}
+    },
+    {
+        "label": "read_qatrack_configfile",
+        "importPath": "qatrack_configfile",
+        "description": "qatrack_configfile",
+        "isExtraImport": true,
+        "detail": "qatrack_configfile",
+        "documentation": {}
+    },
+    {
+        "label": "read_root_configfile",
+        "importPath": "qatrack_configfile",
+        "description": "qatrack_configfile",
+        "isExtraImport": true,
+        "detail": "qatrack_configfile",
+        "documentation": {}
+    },
+    {
+        "label": "read_qa_results",
+        "kind": 2,
+        "importPath": "mri_qa_file",
+        "description": "mri_qa_file",
+        "peekOfCode": "def read_qa_results(**kwargs):\n    '''\n    Read QA resutls from file. For MRI QA, it reades from txt file outputted by Auto MRI QA program. \n    input: \n    kwargs['mri_daily_qa_file']: daily qa file \n    kwargs['mri_monthly_se_file']: monthly se file\n    kwargs['mri_monthly_ge_file']: monthly ge file\n    kwargs['mri_monthly_ute_file']: monthly ute file\n    kwargs['mri_monthly_dixon_file']: monthly dixon file\n    output: ",
+        "detail": "mri_qa_file",
+        "documentation": {}
+    },
+    {
+        "label": "read_qatrack_configfile",
+        "kind": 2,
+        "importPath": "qatrack_configfile",
+        "description": "qatrack_configfile",
+        "peekOfCode": "def read_qatrack_configfile(qatrack_config_file):\n    \"\"\"\n    Read config file read the setting from qatrack_config.ini and output the settings. \n    Input: \n    \"\"\"\n    qatrack_config_dict={}\n    config=configparser.ConfigParser()\n    config.read(qatrack_config_file)\n    # urls.\n    qatrack_config_dict['root_api_url']=config['qatrackurl']['root_api_url']",
+        "detail": "qatrack_configfile",
+        "documentation": {}
+    },
+    {
+        "label": "read_root_configfile",
+        "kind": 2,
+        "importPath": "qatrack_configfile",
+        "description": "qatrack_configfile",
+        "peekOfCode": "def read_root_configfile(root_configfile):\n    \"\"\"\n    Read the root config file containing where the qatrack_configfile is. \n    Input: \n    root_configfile: a root config file for qatrack_configfile location.\n    output: \n    qatrack_configfile[str]: full path to the qatrack_configfile. \n    \"\"\"\n    config=configparser.ConfigParser()\n    config.read(root_configfile)",
+        "detail": "qatrack_configfile",
+        "documentation": {}
+    },
+    {
+        "label": "get_latest_mri_qa_data",
+        "kind": 2,
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "peekOfCode": "def get_latest_mri_qa_data(mri_qa_file):\n    \"\"\"\n    Read the mri qa txt file and get the latest resutls as a list. \n    Input: \n    mri_qa_file[str]: qa result file name. \n    output:\n    latest_qa_data[list]: lastest mri qa data. \n    \"\"\"\n    latest_qa_data=[]\n    with open(mri_qa_file) as file:",
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "read_mri_daily_qa_file",
+        "kind": 2,
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "peekOfCode": "def read_mri_daily_qa_file(mri_daily_qa_file):\n    '''\n    Read mri daily QA file into a nested dict. \n    Input: \n    mri_daily_qa_file: mri_daily_qa_file\n    Output: \n    mri_daiy_qa_dict: dict containing daily qa results. \n    '''\n    qa_results_dict={}\n    qa_data_dict={} ",
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "read_one_mri_monthly_qa_file",
+        "kind": 2,
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "peekOfCode": "def read_one_mri_monthly_qa_file(mri_monthly_qa_file):\n    \"\"\"\n    Read one monthly QA file. \n    Input: \n    mri_monthly_qa_file: one monthly QA file.\n    output: \n    qa_data_dict[dict]: dict containing qa results. \n    \"\"\"\n    qa_data_dict={}\n    latest_qa_data_se=get_latest_mri_qa_data(mri_monthly_qa_file)",
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "read_mri_monthly_qa_files",
+        "kind": 2,
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "peekOfCode": "def read_mri_monthly_qa_files(se_qa_file,ge_qa_file,ute_qa_file,dixon_qa_file):\n    \"\"\"\n    Read mothQA files into a dict. \n    Input: \n    se_qa_file: qa file name for se \n    ge_qa_file: qa file name for ge\n    ute_qa_file: qa file name for ute\n    dixon_qa_file:qa file name for dixon\n    output: \n    qa_data_dict[dict]: qa_data_dict['tests'] contains qa test resutls{'qa_result_name':value}",
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_key",
+        "kind": 2,
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "peekOfCode": "def get_user_key():\n    '''\n    QAtrack uses user_key as field to ensure the uniqueness of each test resutls uploaded to QAtrack database. \n    Return a unique user key using current time for each qa resutls uploading via API.\n    ouput:\n    user_key[str]: unqiue user_key string.\n    '''\n    user_key_dict={}\n    now = datetime.datetime.now()\n    date_string=now.strftime(\"%Y%m%d.%H%M%S\")",
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "get_work_time",
+        "kind": 2,
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "peekOfCode": "def get_work_time(work_duration_minutes=30):\n    '''\n    Create the QA work start and end time which are form fields for each test and required when you upload the QA results through API.\n    Input: \n    work_duration_minutes: times required for performing QA tests. \n    output:\n    work_started[str]: work started time\n    work_completed[str]: work finished time.\n    '''\n    now = datetime.datetime.now()",
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "upload_unittest_results_to_QAtrack",
+        "kind": 2,
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "peekOfCode": "def upload_unittest_results_to_QAtrack(root_api_url, unit_test_collection_instance_url,qatrack_user_token, qa_results_json,upload_fequency='qatime'):\n    '''\n    Upload the qa resutls data to Qatrack via QA test API url. \n    Input: \n    root_api_url[str]: the root api url for QAtrack like: https://qatrack_server_ipaddress:port/api.\n    unit_test_collection_instance_url[str]: instance api url corresponding the QA test in QAtrack. \n    qatrack_user_token[str]: token associated with a QAtrack user + password\n    qa_results_json[dict]:  qa_data_dict[dict]: qa_data_dict['tests'] contains contaiing the QA resutls data \n                            like {'test_name1': {'value':test_result_value},{'test_name2':'test_resutls_string'}}\n                            qa_data_dict['qatime']:containing qa time.  ",
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    },
+    {
+        "label": "upload_jsonfile2QAtrack",
+        "kind": 2,
+        "importPath": "upload_QAtrack",
+        "description": "upload_QAtrack",
+        "peekOfCode": "def upload_jsonfile2QAtrack(root_api_url, unit_test_collection_instance_url,qatrack_user_token, qa_json_file):\n    \"\"\"\n    Read a json file cotain qa resutls for a and upload it to QA track for a certain test. \n     Input: \n    root_api_url[str]: the root api url for QAtrack like: https://qatrack_server_ipaddress:port/api.\n    unit_test_collection_instance_url[str]: instance api url corresponding the QA test in QAtrack. \n    qatrack_user_token[str]: token associated with a QAtrack user + password\n    qa_json_file[str]: a json file containing qa results. \n    Output: \n    response[str]: response code indicating the status of the post operation.",
+        "detail": "upload_QAtrack",
+        "documentation": {}
+    }
+]
